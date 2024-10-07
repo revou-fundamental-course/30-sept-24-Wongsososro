@@ -53,10 +53,11 @@ main {
 
 textarea {
     height: 80px;
-    width: 200px;
+    width: 220px;
     border-radius: 10px;
     border: 0;
     resize: none;
+    padding: 0.5rem;
 }
 
 .rumus {
@@ -73,4 +74,10 @@ textarea {
 footer {
     padding: 0.5rem;
     color: rgba(0, 0, 0, 0.555);
+}
+
+@media (max-width: 769px) {
+    main {
+        flex-direction: column;
+    }
 }
